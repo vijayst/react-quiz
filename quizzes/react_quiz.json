@@ -1,0 +1,502 @@
+[
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "constructor(), getDerivedStateFromProps(), render(), componentDidMount()",
+                "explanation": "This is the right answer."
+            },
+            {
+                "score": 0,
+                "value": "constructor(), componentDidMount(), render(), getDerivedStateFromProps()",
+                "explanation": "This answer is wrong. componentDidMount is called after render."
+            },
+            {
+                "score": 0,
+                "value": "constructor(), render(), getDerivedStateFromProps(), componentDidMount()",
+                "explanation": "This answer is wrong. render is called after getDerivedStateFromProps."
+            },
+            {
+                "score": 0,
+                "value": "constructor(), componentDidMount(), getDerivedStateFromProps(), render()",
+                "explanation": "This answer is wrong. componentDidMount is called after render."
+            }
+        ],
+        "question": "What is the correct order of methods when a component is mounted in the DOM?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "boolean",
+                "explanation": "This is the right answer. The PropType for boolean is shortened as bool."
+            },
+            {
+                "score": 0,
+                "value": "number",
+                "explanation": "This is a valid PropType for numbers."
+            },
+            {
+                "score": 0,
+                "value": "symbol",
+                "explanation": "This is a valid PropType for symbols. Symbol is a ES2015 type."
+            },
+            {
+                "score": 0,
+                "value": "func",
+                "explanation": "This is a valid PropType for functions."
+            }
+        ],
+        "question": "Which of the following is NOT a valid PropType?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "React components should not change props or state within the render function.",
+                "explanation": "This answer is right. "
+            },
+            {
+                "score": 0,
+                "value": "Props can be modified within a React component.",
+                "explanation": "This answer is wrong. Only state should be modified using setState."
+            },
+            {
+                "score": 0,
+                "value": "State is immutable.",
+                "explanation": "This answer is wrong. State can be modified using setState."
+            },
+            {
+                "score": 0,
+                "value": "State is passed to a React component from the parent component.",
+                "explanation": "This answer is wrong. Props are passed from the parent component."
+            }
+        ],
+        "question": "Which of the following is true?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Using the static defaultProps property.",
+                "explanation": "This answer is right."
+            },
+            {
+                "score": 0,
+                "value": "Using the getDefaultProps() instance method.",
+                "explanation": "This answer is wrong. There is no such method."
+            },
+            {
+                "score": 0,
+                "value": "Using the static propValues property.",
+                "explanation": "This answer is wrong. There is no such property."
+            },
+            {
+                "score": 0,
+                "value": "Using the getPropValues() instance method.",
+                "explanation": "This answer is wrong. There is no such method."
+            }
+        ],
+        "question": "How should default values be set for props?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Functional component is nothing but a render function",
+                "explanation": "This answer is right. Even with hooks, functional component is just a render function."
+            },
+            {
+                "score": 0,
+                "value": "Functional component is written without JSX.",
+                "explanation": "This answer is wrong. Functional component can have JSX."
+            },
+            {
+                "score": 0,
+                "value": "Functional component has form elements like input, select.",
+                "explanation": "This answer is wrong. Though functional components can have form elements, it does not explain what it is."
+            },
+            {
+                "score": 0,
+                "value": "Functional component has a function that accepts a state and returns a new state.",
+                "explanation": "This answer is wrong. Functional component is a render function, not a reducer function."
+            }
+        ],
+        "question": "What is a functional component?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "componentDidUnmount",
+                "explanation": "This answer is right. There is only a componentWillUnmount."
+            },
+            {
+                "score": 0,
+                "value": "getSnapshotBeforeUpdate",
+                "explanation": "This answer is wrong. This is a valid lifecycle method since React 16."
+            },
+            {
+                "score": 0,
+                "value": "shouldComponentUpdate",
+                "explanation": "This answer is wrong. This is a valid lifecycle method."
+            },
+            {
+                "score": 0,
+                "value": "componentDidUpdate",
+                "explanation": "This answer is wrong. This is a valid lifecycle method."
+            }
+        ],
+        "question": "Which of the following is NOT a lifecycle method?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "<div dangerouslySetInnerHTML={{ __html: htmlString }} />",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "<div>{htmlString} />",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "<div innerHTML={htmlString} />",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "HTML contents cannot be inserted into a React element as it affects the virtual DOM.",
+                "explanation": ""
+            }
+        ],
+        "question": "How can HTML contents be inserted into a React element?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "The ref attribute is used to get a reference to the underlying DOM element.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "The ref attribute is deprecated and should not be used.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "The ref attribute provides a reference to the CSS class.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "The component referenced within the ref attribute should be rendered along with the component.",
+                "explanation": ""
+            }
+        ],
+        "question": "What is the purpose of the ref attribute?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "formType",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "tabIndex",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "rowSpan",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "contentEditable",
+                "explanation": ""
+            }
+        ],
+        "question": "Which of the following HTML attribute is NOT supported for a React component?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "The persist method removes an event from the pool and allows event properties to be used in an asynchronous way.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "The persist method saves the event in the pool and allows the event object to be reused for optimising performance.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "The persist method saves the event in the global context for child components to use the event properties.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "The persist method provides the browser native event for browser-specific event handling.",
+                "explanation": ""
+            }
+        ],
+        "question": "What is the purpose of persist method in SyntheticEvent?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "react-transition-group",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "react-animation",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "react-animate",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "react-transition",
+                "explanation": ""
+            }
+        ],
+        "question": "Which package from React community is used to perform animations in React?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Use a deep copy utility to set new state.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Use the minified production build of React.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Avoid component updates by overriding the default implementation of shouldComponentUpdate.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Use PureComponent as the base class instead of Component.",
+                "explanation": ""
+            }
+        ],
+        "question": "Which of the following is NOT a performance optimization technique?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "The componentDidMount method executes both in the client and the server.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Making the application Isomorphic improves the performance.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "The page is rendered before the JavaScript is loaded.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "React adds event handlers in the client.",
+                "explanation": ""
+            }
+        ],
+        "question": "Which of the following statements about Isomorphic React applications is false?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Fragment helps in grouping multiple elements without adding a new DOM element.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Fragment splits a large component into multiple smaller components.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Do not use Fragment as it is an experimental feature.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Fragment is used in place of a Higher order component.",
+                "explanation": ""
+            }
+        ],
+        "question": "When do we use Fragment?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "It is a prop of function type which describes how to render the component state.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "There is only a render method.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "It is another name for higher order component.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "It is another name for function component.",
+                "explanation": ""
+            }
+        ],
+        "question": "What is a render prop?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "ReactDOM.createPortal(child, domNode)",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "React.createPortal(child, domNode)",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "React.newPortal(child, domNode)",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "React.newPortal(domNode, child)",
+                "explanation": ""
+            }
+        ],
+        "question": "How do we create a new Portal?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Code splitting reduces bundle size and helps in loading the requested page faster.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Code splitting helps in having a good folder structure for your React apps.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Code splitting splits the code between server side and client side React.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Code splitting is a Webpack feature used in development mode.",
+                "explanation": ""
+            }
+        ],
+        "question": "How does Code splitting help?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Real DOM updates are expensive.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Real DOM updates are best performed by jQuery.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Virtual DOM is trendy and easy to implement.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Virtual DOM translates to Real DOM by swapping the root node.",
+                "explanation": ""
+            }
+        ],
+        "question": "Why does React choose the virtual DOM approach?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Use PureComponent mostly for container level components.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Use PureComponent everywhere for best performance.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Use PureComponent only in the leaf level components.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Implement shouldComponentUpdate after extending from PureComponent.",
+                "explanation": ""
+            }
+        ],
+        "question": "How should we use PureComponent?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "The componentDidMount method of parent component is called after componentDidMount of child components.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "PureComponent cancels component update by doing a deep equality check of props and state.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "The render method of child components is called before the render method of parent components.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Cancelling the update of a parent component does not prevent the child component from being updated.",
+                "explanation": ""
+            }
+        ],
+        "question": "Which of the following is true?"
+    }
+]

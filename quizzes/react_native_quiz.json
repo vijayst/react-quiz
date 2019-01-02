@@ -1,0 +1,427 @@
+[
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "View",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Text",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Switch",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Picker",
+                "explanation": ""
+            }
+        ],
+        "question": "Which React native component is similar to the div tag in HTML?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "pressOffset",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "onLongPress",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "ellipsizeMode",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "selectable",
+                "explanation": ""
+            }
+        ],
+        "question": "Which is NOT one of the props in the Text component?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "cover",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "contain",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "stretch",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "center",
+                "explanation": ""
+            }
+        ],
+        "question": "Which resizeMode of Image component makes the image dimensions greater than the component dimensions while maintaining the aspect ratio?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "TouchableHighlight",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "TouchableOpacity",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Button",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "TouchableWithoutFeedback",
+                "explanation": ""
+            }
+        ],
+        "question": "Which component shows an underlay color when pressed?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "FlatList does not have a dataSource prop.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "RefreshControl is not a React native component.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "ScrollView does not render all child elements at once.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "ListView has renderRow and renderCell props.",
+                "explanation": ""
+            }
+        ],
+        "question": "Which of the following statements is true?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Text",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Slider",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Switch",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Picker",
+                "explanation": ""
+            }
+        ],
+        "question": "Which of the following is NOT an input component?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Run react-native log-ios",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Run react-native show-log",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Shake the device to view log messages.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Use the react-native-console-logger package.",
+                "explanation": ""
+            }
+        ],
+        "question": "How can we check log messages from the app?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "All react native elements are flex containers.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "The default value of flexDirection is row.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Using relative units like em and rem is useful for specifying dimensions.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "It is possible to set a backgroundImage style to a flex element.",
+                "explanation": ""
+            }
+        ],
+        "question": "Which of the following is true about React native Flex layout?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Use LayoutAnimation.spring() within componentDidMount.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Use Animation.spring() within componentDidMount",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Embed the component within LayoutAnimation component.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Embed the component within Animation component.",
+                "explanation": ""
+            }
+        ],
+        "question": "How can we create a fade-in animation?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "LayoutAnimation runs on the native UI thread.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Animated cannot run on the native UI thread.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Animation, LayoutAnimation and Animated are three APIs available.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Animated cannot perform fadeIn, fadeOut animations.",
+                "explanation": ""
+            }
+        ],
+        "question": "Which of the following is true about React native animations?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "DatePickerIOS",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "BackHandlerAndroid",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "DrawerLayout",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "ProgressBarIOS",
+                "explanation": ""
+            }
+        ],
+        "question": "Which of the following is a valid React native component?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "NetInfo",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Network",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Device",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "AppState",
+                "explanation": ""
+            }
+        ],
+        "question": "Which API is used to check if a device is online or offline?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Schedule tasks to run after animations.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Handle user interactions with a common event handler.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Perform animations in native UI thread.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Manages race conditions between multiple event handlers.",
+                "explanation": ""
+            }
+        ],
+        "question": "How can we use the InteractionManager API?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "ImagePickerAndroid",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "ImagePickerIOS",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "ImageEditor",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "ImageStore",
+                "explanation": ""
+            }
+        ],
+        "question": "Which of the following is not a valid React native API?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Package which animates using Adobe After Effects.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Package which performs online lottery using Bitcoins.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Package which has input components for user interaction.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Package which does image manipulation.",
+                "explanation": ""
+            }
+        ],
+        "question": "What does lottie-react-native do?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Handles internationalization.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Allows app access only if the person is 18 years old.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Performs animations.",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "Handles authentication with social providers.",
+                "explanation": ""
+            }
+        ],
+        "question": "What does the react-native-i18n package do?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "react-native-fetch-blob",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "react-native-camera",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "react-native-cameraroll",
+                "explanation": ""
+            },
+            {
+                "score": 0,
+                "value": "react-native-image-reader",
+                "explanation": ""
+            }
+        ],
+        "question": "Which package is useful for reading an image from the camera roll?"
+    }
+]

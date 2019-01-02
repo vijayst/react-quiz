@@ -1,0 +1,23 @@
+{
+  "name": "react-quiz",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android"
+  },
+  "dependencies": {
+    "firebase": "^5.7.2",
+    "knuth-shuffle": "^1.0.1",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-firebase": "^5.1.1",
+    "react-native-gesture-handler": "^1.0.12",
+    "react-navigation": "^3.0.9"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "babel-preset-expo": "^5.0.0",
+    "react-native-dotenv": "^0.2.0"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "269417089947",
+    "firebase_url": "https://react-quiz-ccf3d.firebaseio.com",
+    "project_id": "react-quiz-ccf3d",
+    "storage_bucket": "react-quiz-ccf3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269417089947:android:c28ee4ee46e443cc",
+        "android_client_info": {
+          "package_name": "com.vijayt.reactquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269417089947-68tgdn5q8vnc05u5ec9nodfstdgc73e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_UF0uiM0PrraOlEegU_B2xxnRFul3zSs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

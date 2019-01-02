@@ -1,0 +1,12 @@
+{
+    "quizzes": [
+        {
+            "name": "React",
+            "questions": []
+        },
+        {
+            "name": "React Native",
+            "questions": []
+        }
+    ]
+}
