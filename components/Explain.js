@@ -87,9 +87,9 @@ export default class Explain extends Component {
             <View style={styles.container}>
                 <Question key={current} text={question} />
                 <ExplainText key={`${current}_1`} text={rightAnswer.value} color={RIGHT_COLOR} />
-                <ExplainText key={`${current}_2`} text={'Hello'} color={INITIAL_COLOR} />
+                <ExplainText key={`${current}_2`} text={rightAnswer.explanation} color={INITIAL_COLOR} />
                 <ExplainText key={`${current}_3`} text={wrongAnswer.value} color={WRONG_COLOR} />
-                <ExplainText key={`${current}_4`} text={'World'} color={INITIAL_COLOR} />
+                <ExplainText key={`${current}_4`} text={wrongAnswer.explanation} color={INITIAL_COLOR} />
                 <View style={styles.buttonContainer}>
                     <TouchableOpacity
                         style={{ ...styles.button, marginRight: 15 }}
