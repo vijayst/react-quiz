@@ -154,22 +154,22 @@
             {
                 "score": 1,
                 "value": "<div dangerouslySetInnerHTML={{ __html: htmlString }} />",
-                "explanation": ""
+                "explanation": "This answer is right. To insert HTML, we need this special prop."
             },
             {
                 "score": 0,
-                "value": "<div>{htmlString} />",
-                "explanation": ""
+                "value": "<div>{htmlString}</div>",
+                "explanation": "This answer is wrong. "
             },
             {
                 "score": 0,
                 "value": "<div innerHTML={htmlString} />",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "HTML contents cannot be inserted into a React element as it affects the virtual DOM.",
-                "explanation": ""
+                "explanation": "This answer is wrong. HTML can be inserted using dangerouslySetInnerHTML prop."
             }
         ],
         "question": "How can HTML contents be inserted into a React element?"
@@ -178,48 +178,48 @@
         "answers": [
             {
                 "score": 1,
-                "value": "The ref attribute is used to get a reference to the underlying DOM element.",
-                "explanation": ""
+                "value": "The ref prop is used to get a reference to the underlying DOM element.",
+                "explanation": "This answer is right."
             },
             {
                 "score": 0,
-                "value": "The ref attribute is deprecated and should not be used.",
-                "explanation": ""
+                "value": "The ref prop is deprecated and should not be used.",
+                "explanation": "This answer is wrong. Only the string version of ref is deprecated."
             },
             {
                 "score": 0,
-                "value": "The ref attribute provides a reference to the CSS class.",
-                "explanation": ""
+                "value": "The ref prop provides a reference to the CSS class.",
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
-                "value": "The component referenced within the ref attribute should be rendered along with the component.",
-                "explanation": ""
+                "value": "We can access the ref prop within the component using this.props",
+                "explanation": "This answer is wrong. ref is a special prop like key and is not available in this.props"
             }
         ],
-        "question": "What is the purpose of the ref attribute?"
+        "question": "Which of the following is true about ref prop?"
     },
     {
         "answers": [
             {
                 "score": 1,
                 "value": "formType",
-                "explanation": ""
+                "explanation": "This answer is right. There is no such attribute."
             },
             {
                 "score": 0,
                 "value": "tabIndex",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "rowSpan",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "contentEditable",
-                "explanation": ""
+                "explanation": "This answer is wrong. contentEditable allows any element like div to be editable."
             }
         ],
         "question": "Which of the following HTML attribute is NOT supported for a React component?"
@@ -229,22 +229,22 @@
             {
                 "score": 1,
                 "value": "The persist method removes an event from the pool and allows event properties to be used in an asynchronous way.",
-                "explanation": ""
+                "explanation": "This answer is right. After the event handlers, the event gets recycled to the pool."
             },
             {
                 "score": 0,
                 "value": "The persist method saves the event in the pool and allows the event object to be reused for optimising performance.",
-                "explanation": ""
+                "explanation": "This answer is wrong. The default behaviour is to have pooled events."
             },
             {
                 "score": 0,
                 "value": "The persist method saves the event in the global context for child components to use the event properties.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "The persist method provides the browser native event for browser-specific event handling.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             }
         ],
         "question": "What is the purpose of persist method in SyntheticEvent?"
@@ -254,22 +254,22 @@
             {
                 "score": 1,
                 "value": "react-transition-group",
-                "explanation": ""
+                "explanation": "This answer is right."
             },
             {
                 "score": 0,
                 "value": "react-animation",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "react-animate",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "react-transition",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             }
         ],
         "question": "Which package from React community is used to perform animations in React?"
@@ -279,22 +279,22 @@
             {
                 "score": 1,
                 "value": "Use a deep copy utility to set new state.",
-                "explanation": ""
+                "explanation": "This answer is right. Using deep copy utility to set new state causes the entire tree to update."
             },
             {
                 "score": 0,
                 "value": "Use the minified production build of React.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "Avoid component updates by overriding the default implementation of shouldComponentUpdate.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "Use PureComponent as the base class instead of Component.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             }
         ],
         "question": "Which of the following is NOT a performance optimization technique?"
@@ -304,22 +304,22 @@
             {
                 "score": 1,
                 "value": "The componentDidMount method executes both in the client and the server.",
-                "explanation": ""
+                "explanation": "This answer is right. componentDidMount does not execute on the server."
             },
             {
                 "score": 0,
                 "value": "Making the application Isomorphic improves the performance.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
-                "value": "The page is rendered before the JavaScript is loaded.",
-                "explanation": ""
+                "value": "Use the hydrate method of ReactDOM instead of the usual render method to render the root component in browser.",
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "React adds event handlers in the client.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             }
         ],
         "question": "Which of the following statements about Isomorphic React applications is false?"
@@ -329,22 +329,22 @@
             {
                 "score": 1,
                 "value": "Fragment helps in grouping multiple elements without adding a new DOM element.",
-                "explanation": ""
+                "explanation": "This answer is right."
             },
             {
                 "score": 0,
                 "value": "Fragment splits a large component into multiple smaller components.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "Do not use Fragment as it is an experimental feature.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "Fragment is used in place of a Higher order component.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             }
         ],
         "question": "When do we use Fragment?"
@@ -354,22 +354,22 @@
             {
                 "score": 1,
                 "value": "It is a prop of function type which describes how to render the component state.",
-                "explanation": ""
+                "explanation": "This answer is right."
             },
             {
                 "score": 0,
                 "value": "There is only a render method.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "It is another name for higher order component.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "It is another name for function component.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             }
         ],
         "question": "What is a render prop?"
@@ -379,22 +379,22 @@
             {
                 "score": 1,
                 "value": "ReactDOM.createPortal(child, domNode)",
-                "explanation": ""
+                "explanation": "This answer is right."
             },
             {
                 "score": 0,
                 "value": "React.createPortal(child, domNode)",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "React.newPortal(child, domNode)",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "React.newPortal(domNode, child)",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             }
         ],
         "question": "How do we create a new Portal?"
@@ -404,22 +404,22 @@
             {
                 "score": 1,
                 "value": "Code splitting reduces bundle size and helps in loading the requested page faster.",
-                "explanation": ""
+                "explanation": "This answer is right."
             },
             {
                 "score": 0,
                 "value": "Code splitting helps in having a good folder structure for your React apps.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "Code splitting splits the code between server side and client side React.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "Code splitting is a Webpack feature used in development mode.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             }
         ],
         "question": "How does Code splitting help?"
@@ -429,22 +429,22 @@
             {
                 "score": 1,
                 "value": "Real DOM updates are expensive.",
-                "explanation": ""
+                "explanation": "This answer is right."
             },
             {
                 "score": 0,
                 "value": "Real DOM updates are best performed by jQuery.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "Virtual DOM is trendy and easy to implement.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "Virtual DOM translates to Real DOM by swapping the root node.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             }
         ],
         "question": "Why does React choose the virtual DOM approach?"
@@ -453,48 +453,23 @@
         "answers": [
             {
                 "score": 1,
-                "value": "Use PureComponent mostly for container level components.",
-                "explanation": ""
-            },
-            {
-                "score": 0,
-                "value": "Use PureComponent everywhere for best performance.",
-                "explanation": ""
-            },
-            {
-                "score": 0,
-                "value": "Use PureComponent only in the leaf level components.",
-                "explanation": ""
-            },
-            {
-                "score": 0,
-                "value": "Implement shouldComponentUpdate after extending from PureComponent.",
-                "explanation": ""
-            }
-        ],
-        "question": "How should we use PureComponent?"
-    },
-    {
-        "answers": [
-            {
-                "score": 1,
                 "value": "The componentDidMount method of parent component is called after componentDidMount of child components.",
-                "explanation": ""
+                "explanation": "This answer is right."
             },
             {
                 "score": 0,
                 "value": "PureComponent cancels component update by doing a deep equality check of props and state.",
-                "explanation": ""
+                "explanation": "This answer is wrong. PureComponent does a shallow equality check."
             },
             {
                 "score": 0,
                 "value": "The render method of child components is called before the render method of parent components.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
                 "value": "Cancelling the update of a parent component does not prevent the child component from being updated.",
-                "explanation": ""
+                "explanation": "This answer is wrong."
             }
         ],
         "question": "Which of the following is true?"
