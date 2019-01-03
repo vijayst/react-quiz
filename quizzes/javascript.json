@@ -1,0 +1,77 @@
+[
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "NaN === NaN returns true",
+                "explanation": "This is the right answer. To check if a number is NaN, use the isNaN function."
+            },
+            {
+                "score": 0,
+                "value": "undefined === undefined returns true",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "typeof null returns object",
+                "explanation": "This answer is wrong. null is an object."
+            },
+            {
+                "score": 0,
+                "value": "typeof undefined returns undefined",
+                "explanation": "This answer is wrong. undefined is a special type named undefined."
+            }
+        ],
+        "question": "Which of the following is false?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "num.toFixed(1)",
+                "explanation": "This is the right answer."
+            },
+            {
+                "score": 0,
+                "value": "Math.round(num, 1)",
+                "explanation": "This answer is wrong. The round function does not have a second argument."
+            },
+            {
+                "score": 0,
+                "value": "new Intl.NumberFormat('en-US', { minimumFractionDigits: 1 }).format(num)",
+                "explanation": "This answer is wrong. The right option is maximumFractionDigits."
+            },
+            {
+                "score": 0,
+                "value": "Math.floor(num * 10) / 10",
+                "explanation": "This answer is wrong. Use Math.round instead of Math.floor."
+            }
+        ],
+        "question": "How do you round a decimal (num) upto one decimal place?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "",
+                "explanation": "This is the right answer."
+            },
+            {
+                "score": 0,
+                "value": "",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "",
+                "explanation": "This answer is wrong."
+            }
+        ],
+        "question": ""
+    }
+]
