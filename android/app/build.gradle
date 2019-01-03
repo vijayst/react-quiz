@@ -100,8 +100,8 @@ android {
         applicationId "com.vijayt.reactquiz"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 15
-        versionName "2.6"
+        versionCode 16
+        versionName "3.0"
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
