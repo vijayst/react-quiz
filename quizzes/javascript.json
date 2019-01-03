@@ -53,6 +53,31 @@
         "answers": [
             {
                 "score": 1,
+                "value": "arr.splice(index, 1)",
+                "explanation": "This is the right answer."
+            },
+            {
+                "score": 0,
+                "value": "arr.remove(index)",
+                "explanation": "This answer is wrong. There is no remove function."
+            },
+            {
+                "score": 0,
+                "value": "arr.pop(index)",
+                "explanation": "This answer is wrong. The pop function removes only the last item."
+            },
+            {
+                "score": 0,
+                "value": "arr.shift(index)",
+                "explanation": "This answer is wrong. The shift function removes only the first item."
+            }
+        ],
+        "question": "How do you remove an item at a specified position (index) from an array (arr)?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
                 "value": "",
                 "explanation": "This is the right answer."
             },
