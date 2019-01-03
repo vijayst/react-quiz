@@ -103,6 +103,31 @@
         "answers": [
             {
                 "score": 1,
+                "value": "It does NOT have its own this binding.",
+                "explanation": "This is the right answer. Arrow functions retain the this value from the enclosing scope."
+            },
+            {
+                "score": 0,
+                "value": "It can be used as a constructor.",
+                "explanation": "This answer is wrong. It is not possible to call it using new keyword."
+            },
+            {
+                "score": 0,
+                "value": "Using bind, it is possible to reassign this.",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "It has an arguments array.",
+                "explanation": "This answer is wrong. It does not have an arguments."
+            }
+        ],
+        "question": "Which of the following about arrow functions is true?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
                 "value": "",
                 "explanation": "This is the right answer."
             },
