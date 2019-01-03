@@ -78,6 +78,31 @@
         "answers": [
             {
                 "score": 1,
+                "value": "Use the map function.",
+                "explanation": "This is the right answer. map function returns a new array."
+            },
+            {
+                "score": 0,
+                "value": "Use the find function.",
+                "explanation": "This answer is wrong. Check if find returns a non-null value."
+            },
+            {
+                "score": 0,
+                "value": "Use the findIndex function.",
+                "explanation": "This answer is wrong. Check if findIndex returns an index greater than -1."
+            },
+            {
+                "score": 0,
+                "value": "Use the some function.",
+                "explanation": "This answer is wrong. Check if some function returns true."
+            }
+        ],
+        "question": "Which of the following is NOT a way to check if an item exists in an array?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
                 "value": "",
                 "explanation": "This is the right answer."
             },
