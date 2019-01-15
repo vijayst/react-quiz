@@ -473,5 +473,30 @@
             }
         ],
         "question": "Which of the following is true?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Create a component which has either getDerivedStateFromError or componentDidCatch",
+                "explanation": "This answer is right."
+            },
+            {
+                "score": 0,
+                "value": "Create a component which has both getDerivedStateFromError and componentDidCatch",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "Create a component which has componentDidCatch",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "Create a component which has getDerivedStateFromError",
+                "explanation": "This answer is wrong."
+            }
+        ],
+        "question": "How do you add an error boundary?"
     }
 ]

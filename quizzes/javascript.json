@@ -128,25 +128,25 @@
         "answers": [
             {
                 "score": 1,
-                "value": "",
+                "value": "It stores props.params.timestamp into a new constant named timestamp",
                 "explanation": "This is the right answer."
             },
             {
                 "score": 0,
-                "value": "",
+                "value": "It stores props.timestamp into a new constant named params",
                 "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
-                "value": "",
+                "value": "It stores props.params.timestamp and props.params into two new constants named timestamp and params respectively",
                 "explanation": "This answer is wrong."
             },
             {
                 "score": 0,
-                "value": "",
+                "value": "It stores props.params into a new constant named timestamp",
                 "explanation": "This answer is wrong."
             }
         ],
-        "question": ""
+        "question": "What does 'const { params: { timestamp } } = props' do?"
     }
 ]
