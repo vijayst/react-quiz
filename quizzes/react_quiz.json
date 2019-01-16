@@ -498,5 +498,30 @@
             }
         ],
         "question": "How do you add an error boundary?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "const Admin = lazy(() => import('./Admin'))",
+                "explanation": "This answer is right."
+            },
+            {
+                "score": 0,
+                "value": "const Admin = lazy(import('./Admin'))",
+                "explanation": "This answer is wrong. lazy requires a callback function that does a dynamic import."
+            },
+            {
+                "score": 0,
+                "value": "const Admin = lazy('./Admin')",
+                "explanation": "This answer is wrong. lazy requires a callback function that does a dynamic import."
+            },
+            {
+                "score": 0,
+                "value": "const Admin = await import('./Admin')",
+                "explanation": "This answer is wrong. Use lazy which accepts a callback function that does a dynamic import."
+            }
+        ],
+        "question": "What is the right way to lazy load React components?"
     }
 ]
