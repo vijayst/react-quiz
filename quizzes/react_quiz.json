@@ -523,5 +523,105 @@
             }
         ],
         "question": "What is the right way to lazy load React components?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Hooks allow developers to use more of React's features without classes.",
+                "explanation": "This answer is right."
+            },
+            {
+                "score": 0,
+                "value": "Hooks provide callback props with specialised syntax.",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "Hooks help in improving performance of React apps.",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "Hooks help in reusing React components better.",
+                "explanation": "This answer is wrong."
+            }
+        ],
+        "question": "Why do we need React Hooks?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "useEffect",
+                "explanation": "This answer is right. componentDidMount and componentDidUpdate handles side-effects which is implemented by useEffect hook."
+            },
+            {
+                "score": 0,
+                "value": "useState",
+                "explanation": "This answer is wrong. This hook allows component to have state."
+            },
+            {
+                "score": 0,
+                "value": "useReducer",
+                "explanation": "This answer is wrong. This hook allows component to have complex state."
+            },
+            {
+                "score": 0,
+                "value": "useUpdate",
+                "explanation": "This answer is wrong. There is no such built-in hook."
+            }
+        ],
+        "question": "Which hook allows a component to replace functionality of componentDidMount and componentDidUpdate?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "This allows hooks to be called in the same order everytime the component renders.",
+                "explanation": "This answer is right."
+            },
+            {
+                "score": 0,
+                "value": "It helps the linter plugin: eslint-plugin-react-hooks.",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "Hooks can be used within loops and conditions.",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "Hooks can only be called within React components or other custom hooks.",
+                "explanation": "This answer is wrong. It explains the second rule of hooks."
+            }
+        ],
+        "question": "What should we not use Hooks inside loops or conditions?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "useAnimation",
+                "explanation": "This answer is right."
+            },
+            {
+                "score": 0,
+                "value": "useImperativeHandle",
+                "explanation": "This answer is wrong. "
+            },
+            {
+                "score": 0,
+                "value": "useLayoutEffect",
+                "explanation": "This answer is wrong. "
+            },
+            {
+                "score": 0,
+                "value": "useDebugValue",
+                "explanation": "This answer is wrong."
+            }
+        ],
+        "question": "Which of the following is not a built-in Hook?"
     }
 ]
