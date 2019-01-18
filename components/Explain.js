@@ -17,7 +17,7 @@ if (__DEV__) {
     request.addTestDevice();
 }
 
-const INITIAL_COLOR = "#0882e3";
+const INITIAL_COLOR = "rgba(89, 77, 70, 1)";
 const RIGHT_COLOR = "#58b460";
 const WRONG_COLOR = "#e15955";
 
