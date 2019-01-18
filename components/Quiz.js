@@ -2,10 +2,9 @@ import React, { Component } from "react";
 import { StyleSheet, Text, View, ActivityIndicator } from "react-native";
 import Question from "./Question";
 import Answer from "./Answer";
-import Score from "./Score";
 import firebase from "react-native-firebase";
 import QuizModel from "../firebase/quiz";
-import NavRight from "./NavRight";
+import Progress from "./Progress";
 import { knuthShuffle as shuffle } from "knuth-shuffle";
 
 const Banner = firebase.admob.Banner;
@@ -20,7 +19,7 @@ export default class Quiz extends Component {
         const { name, count, current } = navigation.state.params;
         return {
             title: name,
-            headerRight: <NavRight count={count} current={current} />
+            headerRight: <Progress count={count} current={current} />
         };
     };
 

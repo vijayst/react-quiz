@@ -6,7 +6,7 @@ import {
     TouchableOpacity
 } from 'react-native';
 import firebase from 'react-native-firebase';
-import NavRight from './NavRight';
+import Progress from './Progress';
 import Question from './Question';
 import ExplainText from './ExplainText';
 
@@ -26,7 +26,7 @@ export default class Explain extends Component {
         const { quiz: { wrong }, current } = navigation.state.params;
         return {
             title: 'Explain',
-            headerRight: <NavRight count={Object.keys(wrong).length} current={current} />
+            headerRight: <Progress count={Object.keys(wrong).length} current={current} />
         };
     };
 
