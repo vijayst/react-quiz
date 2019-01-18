@@ -148,5 +148,80 @@
             }
         ],
         "question": "What does 'const { params: { timestamp } } = props' do?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "2",
+                "explanation": "This is the right answer. || operator returns 1. && operator returns 2."
+            },
+            {
+                "score": 0,
+                "value": "true",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "0",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "1",
+                "explanation": "This answer is wrong."
+            }
+        ],
+        "question": "const x = 0 || 1 && 2; What is the value of x?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "function",
+                "explanation": "This is the right answer. class is a syntactical sugar for functions."
+            },
+            {
+                "score": 0,
+                "value": "func",
+                "explanation": "This answer is wrong. There is no such type."
+            },
+            {
+                "score": 0,
+                "value": "object",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "undefined",
+                "explanation": "This answer is wrong."
+            }
+        ],
+        "question": "class A {}; What is the typeof A?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "1005, 95",
+                "explanation": "This is the right answer. + operator concatenates the two as string. - operator converts the two to numbers."
+            },
+            {
+                "score": 0,
+                "value": "NaN, NaN",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "105, 95",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "1005, NaN",
+                "explanation": "This answer is wrong."
+            }
+        ],
+        "question": "const x = '100' + '5'; const y = '100' - '5'; What is the value of x and y?"
     }
 ]
