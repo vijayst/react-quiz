@@ -348,5 +348,30 @@
             }
         ],
         "question": "const obj = { name: 'John' }; const proxy = new Proxy(obj, { name: 'Doe' }); What is the value of proxy.name?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "[2, 3], [1, 5, 4]",
+                "explanation": "This is the right answer. Splice mutates the array and returns the deleted items."
+            },
+            {
+                "score": 0,
+                "value": "[1, 5, 4], [1, 2, 3, 4]",
+                "explanation": "This answer is wrong. This answer assumes that the original array is not mutated."
+            },
+            {
+                "score": 0,
+                "value": "[2, 3], [1, 4, 5]",
+                "explanation": "This answer is wrong. This answer inserts 5 at the end of the array and not at index = 1."
+            },
+            {
+                "score": 0,
+                "value": "[1, 2], [5, 3, 4]",
+                "explanation": "This answer is wrong. This answer assumes that array index starts with 1 and not 0."
+            }
+        ],
+        "question": "const arr = [1, 2, 3, 4]; const result = arr.splice(1, 2, 5); What is the value of result and arr?"
     }
 ]
