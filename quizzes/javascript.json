@@ -223,5 +223,105 @@
             }
         ],
         "question": "const x = '100' + '5'; const y = '100' - '5'; What is the value of x and y?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "({ a, b } = { a: 1, b: 2 });",
+                "explanation": "This is the right answer. Destructuring to an existing variable requires a parenthesis around the expression."
+            },
+            {
+                "score": 0,
+                "value": "{ a, b } = { a: 1, b: 2 };",
+                "explanation": "This answer is wrong. Without parenthesis, the left side is considered a code block."
+            },
+            {
+                "score": 0,
+                "value": "let { a, b } = { a: 1, b: 2 };",
+                "explanation": "This answer is wrong. a, b are new variables declared."
+            },
+            {
+                "score": 0,
+                "value": "It is not possible to destructure into already defined variables.",
+                "explanation": "This answer is wrong."
+            }
+        ],
+        "question": "Which of the following is the right syntax for destructuring into already defined variables?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "This helps to call the function without any argument.",
+                "explanation": "This is the right answer."
+            },
+            {
+                "score": 0,
+                "value": "This syntax is not valid.",
+                "explanation": "This answer is wrong. "
+            },
+            {
+                "score": 0,
+                "value": "Destructuring into empty object is redundant syntax and has no useful purpose.",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "This helps to avoid lint errors.",
+                "explanation": "This answer is wrong."
+            }
+        ],
+        "question": "function p({ a = 5, b = 7 } = {}) {}; Why do we need to destructure into any empty object?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "const { theProp, ...rest } = obj;",
+                "explanation": "This is the right answer. The rest object has all properties except theProp."
+            },
+            {
+                "score": 0,
+                "value": "delete obj.theProp;",
+                "explanation": "This answer is wrong. This mutates obj."
+            },
+            {
+                "score": 0,
+                "value": "obj.theProp = undefined;",
+                "explanation": "This answer is wrong. This mutates obj and does not remove the property."
+            },
+            {
+                "score": 0,
+                "value": "const rest = { ...obj, theProp: undefined }",
+                "explanation": "This answer is wrong. Though it works, this is not the preferred way."
+            }
+        ],
+        "question": "What is the right syntax for dropping a property (theProp) from an object without mutating the object?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "20, 10",
+                "explanation": "This is the right answer. a has the second value in the array. b has the default value."
+            },
+            {
+                "score": 0,
+                "value": "10, 20",
+                "explanation": "This answer is wrong. Using the comma omits the first value in the array"
+            },
+            {
+                "score": 0,
+                "value": "There is a SyntaxError",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "20, undefined",
+                "explanation": "This answer is wrong. b has a default value set."
+            }
+        ],
+        "question": "const [, a, b = 10] = [10, 20]; What is the value of a, b?"
     }
 ]
