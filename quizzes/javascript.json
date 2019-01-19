@@ -323,5 +323,30 @@
             }
         ],
         "question": "const [, a, b = 10] = [10, 20]; What is the value of a, b?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "John",
+                "explanation": "This is the right answer. Proxy should override the get method."
+            },
+            {
+                "score": 0,
+                "value": "Doe",
+                "explanation": "This answer is wrong. The handler for proxy cannot have arbitrary properties."
+            },
+            {
+                "score": 0,
+                "value": "There is a SyntaxError",
+                "explanation": "This answer is wrong. Though the handler has invalid properties, it still works."
+            },
+            {
+                "score": 0,
+                "value": "undefined",
+                "explanation": "This answer is wrong. There is no get method to override name."
+            }
+        ],
+        "question": "const obj = { name: 'John' }; const proxy = new Proxy(obj, { name: 'Doe' }); What is the value of proxy.name?"
     }
 ]
