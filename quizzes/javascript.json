@@ -398,5 +398,30 @@
             }
         ],
         "question": "Promise.all(42, Promise.reject(42)).then(funcA).catch(funcB); Which of the following is true?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Object is a primitive type.",
+                "explanation": "This is the right answer. Object is not primitive, it can be mutated."
+            },
+            {
+                "score": 0,
+                "value": "Primitive data types are immutable.",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "Null and Undefined are primitive types.",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "Symbol is a primitive type added in ES2015.",
+                "explanation": "This answer is wrong."
+            }
+        ],
+        "question": "Which of the following about JavaScript primitive types is false?"
     }
 ]
