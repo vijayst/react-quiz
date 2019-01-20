@@ -373,5 +373,30 @@
             }
         ],
         "question": "const arr = [1, 2, 3, 4]; const result = arr.splice(1, 2, 5); What is the value of result and arr?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "funcB is called.",
+                "explanation": "This is the right answer. If there is a rejected promise, the control will move immediately to catch block."
+            },
+            {
+                "score": 0,
+                "value": "funcA is called",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "Both funcA and funcB is called.",
+                "explanation": "This answer is wrong."
+            },
+            {
+                "score": 0,
+                "value": "There is a Syntax Error",
+                "explanation": "This answer is wrong."
+            }
+        ],
+        "question": "Promise.all(42, Promise.reject(42)).then(funcA).catch(funcB); Which of the following is true?"
     }
 ]
