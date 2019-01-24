@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "android": "react-native run-android"
+    "android": "react-native run-android",
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "firebase": "^5.7.2",
@@ -19,6 +20,7 @@
   "devDependencies": {
     "babel-plugin-transform-inline-environment-variables": "^0.4.3",
     "babel-preset-expo": "^5.0.0",
+    "gh-pages": "^2.0.1",
     "react-native-dotenv": "^0.2.0"
   }
 }

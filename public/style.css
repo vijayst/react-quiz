@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Ubuntu, sans-serif;
+}
+
+.content {
+    max-width: 640px;
+}
