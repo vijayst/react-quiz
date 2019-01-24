@@ -423,5 +423,30 @@
             }
         ],
         "question": "Which of the following about JavaScript primitive types is false?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Generator function generates a series of values.",
+                "explanation": "This is the right answer. Generator function returns an iterator. Calling next function generates a value."
+            },
+            {
+                "score": 0,
+                "value": "Generator function is a function that uses the special keyword async.",
+                "explanation": "This answer is wrong. Using async creates an asynchronous function."
+            },
+            {
+                "score": 0,
+                "value": "Generator function is a function that returns another function.",
+                "explanation": "This answer is wrong. Generator function returns an iterator."
+            },
+            {
+                "score": 0,
+                "value": "Generator function follows a run-to-completion model.",
+                "explanation": "This answer is wrong. Generator function can stop and later continue from where it stopped."
+            }
+        ],
+        "question": "What is a generator function?"
     }
 ]
