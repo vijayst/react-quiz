@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="shortcut icon" href="/react-quiz/favicon.png" />
         <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -11,10 +11,7 @@
             href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700"
             rel="stylesheet"
         />
-        <link
-            href="/style.css"
-            rel="stylesheet"
-        />
+        <link href="/react-quiz/style.css" rel="stylesheet" />
         <title>React Quiz</title>
         <meta
             name="description"
@@ -31,7 +28,10 @@
         />
         <meta property="og:title" content="React Quiz" />
         <meta property="og:type" content="product" />
-        <meta property="og:url" content="https://vijayst.github.io/react-quiz" />
+        <meta
+            property="og:url"
+            content="https://vijayst.github.io/react-quiz"
+        />
         <meta
             property="og:image"
             content="https://vijayst.github.io/react-quiz/logo.png"
@@ -44,14 +44,18 @@
     <body>
         <h1>React Quiz</h1>
         <ul class="nav">
-            <li><a href="/">Home</a></li>
+            <li><a href="/react-quiz">Home</a></li>
             <li>Privacy</li>
         </ul>
-        <p>
-            React Quiz does not collect any user data. Nor does it store any user data anywhere. 
-        </p>
-        <p>
-            We use Firebase to send push notifications to your device when new questions are available.
-        </p>
+        <div class="content">
+            <p>
+                React Quiz does not collect any user data. Nor does it store any
+                user data anywhere.
+            </p>
+            <p>
+                We use Firebase to send push notifications to your device when
+                new questions are available.
+            </p>
+        </div>
     </body>
 </html>
