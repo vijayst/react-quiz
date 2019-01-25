@@ -4,22 +4,22 @@
             {
                 "score": 1,
                 "value": "NaN === NaN returns true",
-                "explanation": "This is the right answer. To check if a number is NaN, use the isNaN function."
+                "explanation": "This statement is false. To check if a number is NaN, use the isNaN function."
             },
             {
                 "score": 0,
                 "value": "undefined === undefined returns true",
-                "explanation": "This answer is wrong."
+                "explanation": "This statement is true."
             },
             {
                 "score": 0,
                 "value": "typeof null returns object",
-                "explanation": "This answer is wrong. null is an object."
+                "explanation": "This statement is true. typeof null returns an object though there is a separate null type."
             },
             {
                 "score": 0,
                 "value": "typeof undefined returns undefined",
-                "explanation": "This answer is wrong. undefined is a special type named undefined."
+                "explanation": "This statement is true. undefined is a special type named undefined."
             }
         ],
         "question": "Which of the following is false?"
@@ -404,22 +404,22 @@
             {
                 "score": 1,
                 "value": "Object is a primitive type.",
-                "explanation": "This is the right answer. Object is not primitive, it can be mutated."
+                "explanation": "This statement is false. Object is not primitive, it can be mutated."
             },
             {
                 "score": 0,
                 "value": "Primitive data types are immutable.",
-                "explanation": "This answer is wrong."
+                "explanation": "This statement is true."
             },
             {
                 "score": 0,
                 "value": "Null and Undefined are primitive types.",
-                "explanation": "This answer is wrong."
+                "explanation": "This statement is true."
             },
             {
                 "score": 0,
                 "value": "Symbol is a primitive type added in ES2015.",
-                "explanation": "This answer is wrong."
+                "explanation": "This statement is true."
             }
         ],
         "question": "Which of the following about JavaScript primitive types is false?"
@@ -448,5 +448,30 @@
             }
         ],
         "question": "What is a generator function?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "Promise.race cancels the remaining promises after the first promise is resolved or rejected.",
+                "explanation": "This statement is false. Promise.race does not wait on the remaining promises but there is no way to cancel those promises."
+            },
+            {
+                "score": 0,
+                "value": "There is no way to cancel a Promise.",
+                "explanation": "This statement is true."
+            },
+            {
+                "score": 0,
+                "value": "Promise resolves or rejects to a single value.",
+                "explanation": "This statement is true. Multiple values are wrapped in an array or object."
+            },
+            {
+                "score": 0,
+                "value": "Any function or object which has a then defined is considered a Promise.",
+                "explanation": "This statement is true. Promise API uses duck-typing to determine if something is a Promise."
+            }
+        ],
+        "question": "Which of the following about Promise API is false?"
     }
 ]
