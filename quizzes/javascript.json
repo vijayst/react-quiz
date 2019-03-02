@@ -473,5 +473,30 @@
             }
         ],
         "question": "Which of the following about Promise API is false?"
+    },
+    {
+        "answers": [
+            {
+                "score": 1,
+                "value": "const { prop1, prop2, ...newObj } = obj",
+                "explanation": "This answer is right. The rest operator creates a new object with omitted properties"
+            },
+            {
+                "score": 0,
+                "value": "const newObj = obj.omit('prop1', 'prop2')",
+                "explanation": "This answer is wrong. There is no omit function in Object prototype."
+            },
+            {
+                "score": 0,
+                "value": "const newObj = obj.remove('prop1', 'prop2')",
+                "explanation": "This answer is wrong. There is no remove function in Object prototype."
+            },
+            {
+                "score": 0,
+                "value": "const newObj = { ...obj, prop1: undefined, prop2: undefined }",
+                "explanation": "Though this works, using the rest operator is much cleaner."
+            }
+        ],
+        "question": "How can we omit props from an object?"
     }
 ]
